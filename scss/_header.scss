@@ -11,8 +11,8 @@ $p-header-inline:1.3rem;
 	display: flex;
 	justify-content: space-between;
 	position: relative;
-	padding-inline: $p-inline;
-	padding-block:$p-block;
+	padding-inline: 20px;
+	padding-block:20px;
 	border-radius:10px;
 	backdrop-filter: blur($background-blur); /* Blurs everything behind the element */
 	width: 100%;

@@ -114,8 +114,8 @@ body {
   display: flex;
   justify-content: space-between;
   position: relative;
-  padding-inline: 2rem;
-  padding-block: 1.3rem;
+  padding-inline: 20px;
+  padding-block: 20px;
   border-radius: 10px;
   -webkit-backdrop-filter: blur(1.25rem);
           backdrop-filter: blur(1.25rem); /* Blurs everything behind the element */
@@ -217,8 +217,13 @@ body {
   font-weight: 500;
 }
 
+.testimonial-col {
+  border: 3px solid red;
+}
+
 body {
   line-height: 1;
+  background: red;
 }
 
 .header-hero-section {
