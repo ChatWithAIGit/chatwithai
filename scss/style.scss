@@ -10,6 +10,7 @@ $p-block-2:5.3125rem; // // Header-Hero Container Padding-Block
 body {
 	line-height: $body-lh;
 	background:red;
+	
 }
 
 
@@ -36,5 +37,5 @@ body {
 	width: 100%;
 	margin-inline: auto;
 	border-radius:$b-radius-10;
-
+	background:blue;
 }
