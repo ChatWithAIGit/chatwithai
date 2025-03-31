@@ -7,12 +7,13 @@ cd /d/Programming/ChatWithAI.github.io
 git add .
 git commit -m "I commit now"
 git push -u origin main
+echo "This is a test" > index.html
 
 But for now I have only this chat with AI facebook page and instagram for memes and stuff what could I offer now for someone?
 
 
 ChatGPT a spus:
-Ah, I see! If you're currently running a Chat with AI Facebook and Instagram page focused on memes and fun content, you're building a community around entertainment and AI interactions. Here�s what you could offer right now, even with this more casual setup:
+Ah, I see! If you're currently running a Chat with AI Facebook and Instagram page focused on memes and fun content, you're building a community around entertainment and AI interactions. Here s what you could offer right now, even with this more casual setup:
 
 1. Custom AI-Generated Memes
 What You Offer: Allow followers to request personalized AI-generated memes. For example, users can submit a funny scenario or a question, and you'll create a meme around that using AI.
@@ -75,7 +76,7 @@ What You Offer: If you build a chatbot that has a fun, quirky AI personality, yo
 
 Monetization: Charge a per-chat fee or create a subscription for unlimited access to the chatbot.
 
-Value: Interactive entertainment that�s fun and personalized, keeping your audience engaged.
+Value: Interactive entertainment that s fun and personalized, keeping your audience engaged.
 
 These ideas allow you to start small, but they offer both entertainment and value to your followers. Over time, you could expand these offerings as your community grows.
 
