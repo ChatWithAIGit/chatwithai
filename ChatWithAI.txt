@@ -1,7 +1,7 @@
 Instagram, Facebook bio - "AI-generated memes, witty chats, and a touch of digital chaos. Because even robots need a sense of humor!"
 facebook page name - AIMemes
 
-
+Github Steps
 cd /d/Programming/ChatWithAI.github.io
 
 But for now I have only this chat with AI facebook page and instagram for memes and stuff what could I offer now for someone?
