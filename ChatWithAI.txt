@@ -4,6 +4,10 @@ facebook page name - AIMemes
 Github Steps
 cd /d/Programming/ChatWithAI.github.io
 
+git add .
+git commit -m "I commit now"
+git push -u origin main
+
 But for now I have only this chat with AI facebook page and instagram for memes and stuff what could I offer now for someone?
 
 
