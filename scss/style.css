@@ -223,7 +223,7 @@ body {
 
 body {
   line-height: 1;
-  background: red;
+  background: green;
 }
 
 .header-hero-section {
@@ -246,5 +246,5 @@ body {
   width: 100%;
   margin-inline: auto;
   border-radius: 0.625rem;
-  background: blue;
+  background: teal;
 }/*# sourceMappingURL=style.css.map */
