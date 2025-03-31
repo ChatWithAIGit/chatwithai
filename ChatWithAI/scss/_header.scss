@@ -1,0 +1,51 @@
+body {
+	font-family: "Poppins", sans-serif;
+	background:$White;
+	
+}
+
+$p-header-block:1.3rem;
+$p-header-inline:1.3rem;
+
+.primary-header {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	padding-inline: $p-inline;
+	padding-block:$p-block;
+	border-radius:10px;
+	backdrop-filter: blur($background-blur); /* Blurs everything behind the element */
+	width: 100%;
+	background:$OriolesOrange63;
+	color:$White;
+	
+
+	.line-divider-svg {
+		display: flex;
+	}
+	
+}
+
+// .blonde {
+// 	color:$Blond;
+// }
+
+.logo {
+	font-size: $fs-400;
+	font-weight: $fw-semi-bold;
+}
+
+.blonde {
+	display: inline-block;
+	color:$Blond;
+	letter-spacing: 12%;
+	margin-left: .4rem;
+	transform: rotate(5deg);
+}
+
+.nav-list {
+	display: flex;
+	gap:2rem;
+	font-size: $fs-300;
+	font-weight: $fw-semi-bold;
+}

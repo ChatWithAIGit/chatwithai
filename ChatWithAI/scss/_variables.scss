@@ -1,0 +1,48 @@
+
+// Colors
+$NeonBlue:#1F01B9;
+$OriolesOrange:#FC440F;
+$OriolesOrange63:hsla(15, 98%, 53%, 0.63);
+$Blond:#F4F1BB;
+$Black:#000;
+$EerieBlack:#181818;
+$White:#fff;
+$Arsenic:#414141;
+
+
+
+// Gradient Color
+$NeonBlueGradientColor:	hsla(250, 99%, 36%,0.50);
+$OriolesOrangeGradientColor:hsla(15, 98%, 53%, 0.50);
+$primary-gradient:linear-gradient(180deg, $NeonBlueGradientColor, $OriolesOrangeGradientColor);
+
+// Typography
+$fs-100:.875rem; // 14px
+$fs-200: 1rem; // 16px
+$fs-300: 1.125rem; //18px
+$fs-400:1.5rem; // 24px
+$fs-500:2.5rem;
+$fs-600:2.8125rem;
+
+$body-lh:1;
+$subheadline-lh:1.5;
+
+$fw-regular: 400;
+$fw-semi-bold: 500;
+$fw-bold: 700;
+
+// Styles
+$background-blur:1.25rem;
+
+// B-radius
+$b-radius-6:.375rem;
+$b-radius-10:.625rem;
+$b-radius-20:1.25rem;
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+
+@import './variables';
+@import'./reset';
+@import './header';
+@import './hero';
+
+$p-inline-1:2rem; // Header-Hero Container Padding-Inline
+$p-block-2:5.3125rem; // // Header-Hero Container Padding-Block
+
+body {
+	line-height: $body-lh;
+}
+
+
+
+.header-hero-section {
+	display: flex;
+	flex-direction: column;
+	padding-inline:$p-inline-1;
+	padding-block:$p-block-2;
+	background: $primary-gradient,
+    url('../img/Hero\ Background\ Image.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap:5.375rem;
+	height: 70vh;
+	max-width: 90rem;
+	width: 100%;
+	margin-inline: auto;
+	border-radius:$b-radius-10;
+
+}

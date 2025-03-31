@@ -1,0 +1,104 @@
+// Layout
+$size-1:1rem; //Header-subheadline margin-top 
+$size-2:3rem; //Header-Button Spacing
+
+
+
+// Typography
+$hero-headline-fs:$fs-300;
+$hero-subheadline-fs:$fs-300;
+$hero-subheading-fs:$fs-500;
+$hero-heading-fs:$fs-600;
+$heading-lh:1.5;
+
+// Hero Call-To-Action
+$btn-p-inline:1.125rem;
+$btn-p-block:.9375rem;
+$btn-fs:$fs-300; //18px
+$btn-radius:$b-radius-6;
+$btn-weight:$fw-semi-bold;
+
+.hero {
+	display: flex;
+	justify-content: center;
+	flex:1;
+	width: 100%;
+	background:$OriolesOrange63;
+	border-radius:$b-radius-20;
+	padding:$size-2;
+	
+}
+
+.hero-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	gap:$size-2;
+	text-align: center;
+	background:hsla(0, 0%, 100%, 0.4);
+	background-image:url('../img/Hero-Content\ Background\ Image.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	backdrop-filter: blur($background-blur); /* Blurs everything behind the element */
+	border-radius:$b-radius-20;
+	flex-basis:65%;
+	font-size: $hero-subheadline-fs;
+
+	&:after {
+		content:'';
+		position: absolute;
+		right: 0;
+		bottom:20px;
+		height: 28.125rem;
+		width: 25rem;
+		background-image: url('../img/Hero\ Coding\ Watermark.png');
+		background-repeat:no-repeat;
+		background-position: center;
+		
+	
+
+	}
+	
+	// Hero Header
+	.hero-header {
+		display: grid;
+		place-items: center;
+		
+
+.hero-heading {
+font-size: $hero-heading-fs;
+line-height: $heading-lh;
+}
+
+.hero-subheading {
+font-size: $hero-subheading-fs;
+
+}
+		
+		.hero-subheadline {
+			max-width: 40ch;
+			margin-top: $size-1;
+			color:$EerieBlack;
+			line-height: $subheadline-lh;
+		}
+	}
+	
+}
+
+.hero-call-to-action {
+	display: inline-flex;
+	width: fit-content;
+	background:$OriolesOrange;
+	padding-inline:$btn-p-inline;
+	padding-block: $btn-p-block;
+	font-size: $btn-fs;
+	border-radius:$btn-radius;
+	font-weight: $btn-weight;
+}
+
+.testimonial-col {
+	border:3px solid red;
+}

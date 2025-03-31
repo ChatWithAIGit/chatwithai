@@ -1,0 +1,114 @@
+
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+
+/* Modern CSS Reset 2025 */
+
+/* Box-sizing: Make it the default for everything */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default list styles */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Reset headings and body font sizes */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove text decoration and color for links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset images and media */
+img,
+picture,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Ensure forms inherit fonts */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+input {
+	max-width: 100%;
+  }
+
+  fieldset {
+    border:unset;
+  }
+
+/* Remove button default styles */
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+/* Set default border style for focus to improve accessibility */
+:focus-visible {
+  outline: 2px solid #007bff; /* Customize color as needed */
+  outline-offset: 2px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set a consistent line height */
+body {
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  font-family: -apple-system,  "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background-color: #fff; /* Set a default background color */
+  color: #000; /* Default text color */
+  word-wrap: break-word;/* Prevent text overflow */
+  overflow-wrap: break-word;
+
+}
