@@ -105,11 +105,6 @@ body {
   overflow-wrap: break-word;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  background: #fff;
-}
-
 .primary-header {
   display: flex;
   justify-content: space-between;
@@ -224,6 +219,7 @@ body {
 body {
   line-height: 1;
   background: black;
+  font-family: "Poppins", sans-serif;
 }
 
 .header-hero-section {
