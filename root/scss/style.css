@@ -1,3 +1,9 @@
+.container {
+  max-width: 90rem;
+  width: 100%;
+  margin-inline: auto;
+}
+
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
@@ -106,141 +112,117 @@ body {
 }
 
 .primary-header {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  padding-inline: 20px;
-  padding-block: 20px;
-  border-radius: 10px;
   -webkit-backdrop-filter: blur(1.25rem);
           backdrop-filter: blur(1.25rem); /* Blurs everything behind the element */
-  width: 100%;
-  background: hsla(15, 98%, 53%, 0.63);
+  box-shadow: 0px 1px 10px 0px rgba(102, 255, 255, 0.05);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1.25rem;
+  padding-block: 1.25rem;
   color: #fff;
 }
-.primary-header .line-divider-svg {
+
+.social-icons {
   display: flex;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.blonde {
-  display: inline-block;
-  color: #F4F1BB;
-  letter-spacing: 12%;
-  margin-left: 0.4rem;
-  transform: rotate(5deg);
 }
 
 .nav-list {
   display: flex;
-  gap: 2rem;
+  gap: 2.6875rem;
   font-size: 1.125rem;
   font-weight: 500;
 }
 
-.hero {
-  display: flex;
-  justify-content: center;
-  flex: 1;
+.hero-container {
+  display: grid;
+  place-items: center;
+  position: relative;
+  height: 75vh;
+}
+.hero-container:after {
+  content: "";
+  background-image: url("../img/01d98a63-915e-4e9e-8098-d118cef3e431_1-removebg-preview 1.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  background: hsla(15, 98%, 53%, 0.63);
-  border-radius: 1.25rem;
-  padding: 3rem;
+  height: 400px;
+  z-index: 1;
+}
+.hero-container:before {
+  content: "";
+  background-image: url("../img/Hero Background Image.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 900px;
+  height: 620px;
 }
 
 .hero-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  gap: 3rem;
-  text-align: center;
-  background: hsla(0, 0%, 100%, 0.4);
-  background-image: url("../img/Hero-Content Background Image.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  -webkit-backdrop-filter: blur(1.25rem);
-          backdrop-filter: blur(1.25rem); /* Blurs everything behind the element */
-  border-radius: 1.25rem;
-  flex-basis: 65%;
-  font-size: 1.125rem;
-}
-.hero-content:after {
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: 20px;
-  height: 28.125rem;
-  width: 25rem;
-  background-image: url("../img/Hero Coding Watermark.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  display: grid;
+  place-items: center;
+  gap: 2.5rem;
 }
 .hero-content .hero-header {
   display: grid;
   place-items: center;
+  color: #fff;
 }
 .hero-content .hero-header .hero-heading {
-  font-size: 2.8125rem;
+  font-size: 3.4375rem;
   line-height: 1.5;
 }
 .hero-content .hero-header .hero-subheading {
-  font-size: 2.5rem;
+  font-size: 2.8125rem;
 }
 .hero-content .hero-header .hero-subheadline {
-  max-width: 40ch;
+  color: #E4E4E4;
   margin-top: 1rem;
-  color: #181818;
-  line-height: 1.5;
+}
+
+.cta-wrapper {
+  display: flex;
+  gap: 1rem;
 }
 
 .hero-call-to-action {
   display: inline-flex;
   width: -moz-fit-content;
   width: fit-content;
-  background: #FC440F;
   padding-inline: 1.125rem;
   padding-block: 0.9375rem;
   font-size: 1.125rem;
   border-radius: 0.375rem;
   font-weight: 500;
-}
-
-.testimonial-col {
-  border: 3px solid red;
+  background: linear-gradient(90deg, rgba(31, 1, 185, 0.3) 0%, rgba(0, 119, 255, 0.3) 100%), linear-gradient(to left, #66ffff, #66ffff);
 }
 
 body {
   line-height: 1;
-  background: black;
   font-family: "Poppins", sans-serif;
 }
 
 .header-hero-section {
   display: flex;
   flex-direction: column;
-  padding-inline: 2rem;
-  padding-block: 5.3125rem;
-  background: linear-gradient(180deg, hsla(250, 99%, 36%, 0.5), hsla(15, 98%, 53%, 0.5)), url("../img/Hero Background Image.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(to left, rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)), linear-gradient(180deg, rgba(0, 119, 255, 0.8) 0%, rgba(31, 1, 185, 0.8) 100%);
+  position: relative;
 }
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5.375rem;
-  height: 70vh;
-  max-width: 90rem;
-  width: 100%;
-  margin-inline: auto;
-  border-radius: 0.625rem;
-  background: green;
+.header-hero-section:after {
+  content: "";
+  background-image: url("../img/Hero Background Patterns-Photoroom 1 (1).svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 100px;
+  left: 600px;
+  width: 600px;
+  height: 600px;
 }/*# sourceMappingURL=style.css.map */

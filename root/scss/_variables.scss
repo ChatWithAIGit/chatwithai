@@ -1,28 +1,42 @@
 
 // Colors
-$NeonBlue:#1F01B9;
-$OriolesOrange:#FC440F;
-$OriolesOrange63:hsla(15, 98%, 53%, 0.63);
-$Blond:#F4F1BB;
 $Black:#000;
-$EerieBlack:#181818;
 $White:#fff;
-$Arsenic:#414141;
+$Platinum:#E4E4E4;
+$DarkCharcoal:#121212;
+
+// Gradients
+$primary-gradient: linear-gradient(
+	to left,
+	rgba(18, 18, 18, 0.9),
+	rgba(18, 18, 18, 0.9)
+  ),
+  linear-gradient(
+	180deg,
+	rgba(0, 119, 255, 0.8) 0%,
+	rgba(31, 1, 185, 0.8) 100%
+  );
+
+  $gradient-ice-background: linear-gradient(
+      90deg,
+      rgba(31, 1, 185, 0.3) 0%,
+      rgba(0, 119, 255, 0.3) 100%
+    ),
+    linear-gradient(to left, #66ffff, #66ffff);
 
 
+// Layout
+$size-1:1rem; //Header-subheadline margin-top 
+$size-2:2.5rem; //Header-Button Spacing
 
-// Gradient Color
-$NeonBlueGradientColor:	hsla(250, 99%, 36%,0.50);
-$OriolesOrangeGradientColor:hsla(15, 98%, 53%, 0.50);
-$primary-gradient:linear-gradient(180deg, $NeonBlueGradientColor, $OriolesOrangeGradientColor);
 
 // Typography
 $fs-100:.875rem; // 14px
 $fs-200: 1rem; // 16px
 $fs-300: 1.125rem; //18px
 $fs-400:1.5rem; // 24px
-$fs-500:2.5rem;
-$fs-600:2.8125rem;
+$fs-500:2.8125rem;
+$fs-600:3.4375rem;
 
 $body-lh:1;
 $subheadline-lh:1.5;
