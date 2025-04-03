@@ -19,7 +19,7 @@ $btn-weight:$fw-semi-bold;
 .hero-container {
 	@include grid-center;
 	position: relative;
-	height: 75vh;
+	height: 60vh;
 	&:after {
 		content:'';
 		background-image: url('../img/01d98a63-915e-4e9e-8098-d118cef3e431_1-removebg-preview\ 1.svg');
@@ -71,7 +71,6 @@ font-size: $hero-subheading-fs;
 	}
 	
 }
-
 
 // Call To Action
 

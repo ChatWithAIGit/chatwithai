@@ -141,7 +141,7 @@ body {
   display: grid;
   place-items: center;
   position: relative;
-  height: 75vh;
+  height: 60vh;
 }
 .hero-container:after {
   content: "";
